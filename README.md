@@ -6,8 +6,6 @@ This project creates a Machine Learning-based Collaborative Filtering Book Recom
 - **Streamlit App**: [Book Recommendation System](https://book-recommendation-app.streamlit.app/)
 - **Hugging Face App**: [Book Recommendation System on Hugging Face](https://huggingface.co/spaces/Sourudra/Book_Recomendation_System)
 
-![app ss](https://github.com/user-attachments/assets/56577402-35b7-46a6-a1d2-d554c019a745)
-
 ![app ss 1](https://github.com/user-attachments/assets/278decee-2c1f-4787-bdeb-643b874ce7e6)
 
 
