@@ -1,0 +1,84 @@
+/* Apply the background image to the entire app */
+.stApp {
+    background-image: url('https://i.postimg.cc/g2w7q0TM/books-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensure the background image stays fixed */
+}
+
+/* Glassmorphism design for elements with the class "glass" */
+.glass {
+    background: rgba(255, 255, 255, 0.1); /* Translucent background */
+    backdrop-filter: blur(10px); /* Blurring effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    margin: 20px; /* Space around the box */
+    color: #ffffff; /* Text color */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Blurred dropdown styling */
+.stSelectbox {
+    background: rgba(255, 255, 255, 0.1); /* Translucent background */
+    backdrop-filter: blur(8px); /* Blur effect */
+    color: #ffffff; /* White text */
+    font-weight: bold; /* Bold text */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 10px; /* Space above the dropdown */
+}
+
+/* Centered custom button container */
+.custom-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Centered custom button styling for "Show Recommendation" */
+.custom-button {
+    background: linear-gradient(135deg, #8B5E3C, #B8860B); /* Warm vintage gold-brown gradient */
+    border: none;
+    color: white; /* White text */
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners for a soft vintage touch */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Soft, deep shadow for antique feel */
+    font-family: 'Georgia', serif; /* Classic serif font for the button */
+    text-transform: uppercase; /* Uppercase text for a formal touch */
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for "Show Recommendation" button */
+.custom-button:hover {
+    background: linear-gradient(135deg, #704214, #B8860B); /* Slightly darker gold-brown */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Button hover styling for specific button containers */
+.stButton > button:hover {
+    background-color: #704214; /* Darker warm brown on hover */
+    border: 1px solid #B8860B; /* Add a border on hover */
+}
+
+/* Optional: Style for text and titles */
+h1, h2, h3, h4 {
+    font-family: 'Georgia', serif; /* Elegant font family */
+    color: #ffffff;
+    text-align: center; /* Centered titles */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow for emphasis */
+}
+
+p {
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    text-align: center;
+}
